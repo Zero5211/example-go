@@ -19,6 +19,9 @@ jkubiak/gobuilddeploy:
     - echo “--Testing--”
     - go test
   
+  PostInstall:
+    - curl ipv4.icanhazip.com
+  
   PkgInclude:
     - bin/server
     
