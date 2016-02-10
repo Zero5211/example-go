@@ -26,7 +26,7 @@ jkubiak/goexample:
     - bin/server
     
   Env:
-    - PORT: "8002"   
+    - PORT: "8003"   
 
   Exec:
     - exec ./bin/server $PORT
